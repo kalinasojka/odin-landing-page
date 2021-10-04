@@ -1,36 +1,67 @@
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 * {
-    border-color: red;
+    /* border-color: red;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
     font-family: Arial, Helvetica, sans-serif;
 }
-header.container {
+
+header, div.hero-container, footer {
+    padding: 0px 100px 0px  150px;
+}
+
+header.container, div.hero-container {
     background-color: #1F2937;
 }
 
-h1 {
+h2.logo {
     display: inline-block;
     font-size: 24px;
     color: #F9FAF8;
 }
 
 ul.header-links {
-    display: inline-block;
     list-style-type: none;
     float: right;
-    padding-right: 40px;
 }
 
 li.link {
     display: inline-block;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 20px;
 }
 
 ul.header-links, .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
+/* hero */
+div.hero-container {
+    display: flex;
+    justify-content: center;
+}
+ h1.hero-primary {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+ }
+
+ img.hero-img {
+     width: 40vw;
+ }
+
+ h3.hero-secondary {
+     margin: 0;
+ }
+
+ button.signup-hero {
+     background-color: #3882F6;
+     border-radius: 10%;
+     border-width: 0;
+     color: #E5E7EB;
+     padding: 8px 15px 8px 15px;
+ }
