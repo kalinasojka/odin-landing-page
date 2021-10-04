@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+}
+header.container {
+    background-color: #1F2937;
+}
+
+h1 {
+    display: inline-block;
+}
+
+ul.header-links {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+}
+
+li.link {
+    display: inline-block;
+}
